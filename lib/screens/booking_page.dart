@@ -1,8 +1,8 @@
 import 'package:doctor_appointment_app/components/button.dart';
-import 'package:doctor_appointment_app/components/custom_appbar.dart';
+// import 'package:doctor_appointment_app/components/custom_appbar.dart';
 import 'package:doctor_appointment_app/utils/config.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+// import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 class BookingPage extends StatefulWidget {
@@ -24,10 +24,10 @@ class _BookingPageState extends State<BookingPage> {
   Widget build(BuildContext context) {
     Config().init(context);
     return Scaffold(
-      appBar: CustomAppBar(
-        appTitle: 'Appointment',
-        icon: const FaIcon(Icons.arrow_back_ios),
-      ),
+      // appBar: CustomAppBar(
+      //   appTitle: 'Appointment',
+      //   icon: const FaIcon(Icons.arrow_back_ios),
+      // ),
       body: CustomScrollView(
         slivers: <Widget>[
           SliverToBoxAdapter(

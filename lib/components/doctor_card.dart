@@ -58,21 +58,13 @@ class DoctorCard extends StatelessWidget {
                             color: Colors.yellow,
                             size: 16,
                           ),
-                          Spacer(
-                            flex: 1,
-                          ),
+                          Spacer(flex: 1),
                           Text('4.5'),
-                          Spacer(
-                            flex: 1,
-                          ),
+                          Spacer(flex: 1),
                           Text('Reviews'),
-                          Spacer(
-                            flex: 1,
-                          ),
+                          Spacer(flex: 1),
                           Text('(20)'),
-                          Spacer(
-                            flex: 7,
-                          ),
+                          Spacer(flex: 7),
                         ],
                       ),
                     ],
