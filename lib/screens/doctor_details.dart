@@ -9,6 +9,7 @@ import '../components/custom_appbar.dart';
 
 class DoctorDetails extends StatefulWidget {
   // const DoctorDetails({super.key});
+  // const DoctorDetails({super.key});
   const DoctorDetails({Key? key}) : super(key: key);
   @override
   State<DoctorDetails> createState() => _DoctorDetailsState();
