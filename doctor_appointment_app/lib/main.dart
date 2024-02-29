@@ -1,3 +1,5 @@
+// megantara@gmail.com
+// 0878Iqmal
 import 'package:doctor_appointment_app/main_layout.dart';
 import 'package:doctor_appointment_app/models/auth_model.dart';
 import 'package:doctor_appointment_app/screens/auth_page.dart';
@@ -52,7 +54,7 @@ class MyApp extends StatelessWidget {
         routes: {
           '/': (context) => const AuthPage(),
           'main': (context) => const MainLayout(),
-          'booking_page': (context) => BookingPage(),
+          'booking_page': (context) => const BookingPage(),
           'success_booking': (context) => const AppointmentBooked(),
         },
       ),

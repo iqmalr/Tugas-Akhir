@@ -25,6 +25,13 @@ class DoctorCard extends StatelessWidget {
           color: Colors.white,
           child: Row(
             children: [
+              // SizedBox(
+              //   width: Config.widthSize * 0.33,
+              //   child: Image.asset(
+              //     'assets/doctor_2.jpg',
+              //     fit: BoxFit.fill,
+              //   ),
+              // ),
               SizedBox(
                 width: Config.widthSize * 0.33,
                 child: Image.network(
@@ -54,9 +61,9 @@ class DoctorCard extends StatelessWidget {
                         ),
                       ),
                       const Spacer(),
-                      Row(
+                      const Row(
                         mainAxisAlignment: MainAxisAlignment.start,
-                        children: const <Widget>[
+                        children: <Widget>[
                           Icon(
                             Icons.star_border,
                             color: Colors.yellow,

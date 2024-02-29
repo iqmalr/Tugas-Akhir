@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
 import '../components//custom_appbar.dart';
 
 class DoctorDetails extends StatefulWidget {
@@ -115,7 +116,7 @@ class AboutDoctor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Config().init(context);
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Column(
         children: <Widget>[

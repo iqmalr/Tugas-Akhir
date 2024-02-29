@@ -10,7 +10,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 class BookingPage extends StatefulWidget {
-  BookingPage({Key? key}) : super(key: key);
+  const BookingPage({Key? key}) : super(key: key);
 
   @override
   State<BookingPage> createState() => _BookingPageState();
@@ -161,7 +161,7 @@ class _BookingPageState extends State<BookingPage> {
     return TableCalendar(
       focusedDay: _focusDay,
       firstDay: DateTime.now(),
-      lastDay: DateTime(2023, 12, 31),
+      lastDay: DateTime(2024, 2, 29),
       calendarFormat: _format,
       currentDay: _currentDay,
       rowHeight: 48,
